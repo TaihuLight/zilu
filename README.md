@@ -47,7 +47,8 @@ zilu has been tested on Ubuntu 14.04 x64. It should work on other Linux platfrom
 
 #### Get the latest zilu
 ```
-git clone https://github.com/lijiaying/zilu.git
+# git clone https://github.com/lijiaying/zilu.git
+git clone https://github.com/TaihuLight/zilu
 cd zilu
 ```
 
