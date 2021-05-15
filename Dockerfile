@@ -8,10 +8,10 @@ MAINTAINER lijiaying <lijiaying1989@gmail.com>
 ENV klee_home=/klee_home \
     zilu_src=/zilu_home
 
+RUN apt-get -y update
+RUN apt-get -y upgrade
 RUN apt-get -y --no-install-recommends install \
-		libgsl0-dev \
-		z3 libz3-dev \
-		clang vim
+               apt-utils libgsl0-dev z3 libz3-dev clang vim
 
 		
 #mkdir -p ${zilu_src}
