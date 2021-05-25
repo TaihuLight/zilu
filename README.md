@@ -91,10 +91,13 @@ cd ../..
 
 ## Try *zilu* from docker hub
 <!--- 
-This is not supported for now. As klee has updated its build support platform from llvm-2.9 to llvm-3.4. We will update this in a few months.
+As klee has updated its build support platform from llvm-2.9 to llvm-3.4. We will update this in a few months.
 --->
 ```
 docker pull lijiaying/zilu
+docker run -it lijiaying/zilu
+cd zilu_home/
+./run benchmark/35.cfg
 ```
 
 ## Enjoy your tour with our Invariant Inference Framework: zilu
